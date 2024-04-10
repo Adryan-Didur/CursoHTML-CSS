@@ -1,0 +1,14 @@
+body{
+    background: rgb(231, 195, 128);
+    font-size: 20pt;
+    text-align: center;
+}
+section#inicio{
+    margin: auto;
+    background: white;
+    border-radius: 5%;
+    height: max-content;
+    width: max-content;
+    padding: 40px;
+    box-shadow: 5px 5px 15px;
+}
