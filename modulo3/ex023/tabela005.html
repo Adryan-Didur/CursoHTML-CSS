@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 25px;
+            font-weight: bolder;
+            padding: 20px;
+        }
+        td, th{
+            border: 1px solid black;
+            text-align: center;
+            padding: 10px;
+        }
+        col.coluna-nome{
+            background-color: lightgrey;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exercício de Tabelas</h1>
+
+    <table>
+        <colgroup>
+            <col class="coluna-nome">
+            <col class="coluna-sexo">
+            <col class="coluna-idade">
+            <col class="coluna-profissao">
+        </colgroup>
+        <caption>Cadastro</caption>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Profissão</th>
+        </tr>
+        <tr>
+            <td>Ana Maria</td>
+            <td>F</td>
+            <td>25</td>
+            <td>Jornalista</td>
+        </tr>
+        <tr>
+            <td>Gustavo Guanabara</td>
+            <td>M</td>
+            <td>32</td>
+            <td>Professor</td>
+        </tr>
+        <tr>
+            <td>Felipe</td>
+            <td>M</td>
+            <td>19</td>
+            <td>Desempregado</td>
+        </tr>
+        <tr>
+            <td>Alana</td>
+            <td>F</td>
+            <td>16</td>
+            <td>Desempregada</td>
+        </tr>
+    </table>
+</body>
+</html>
