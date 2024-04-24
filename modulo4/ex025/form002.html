@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <h1>Teste de formulário</h1>
+    <form action="cadastro.js" method="post" autocomplete="on">
+        <div>
+            <label for="usuario-id">Usuário: </label>
+            <input type="text" name="usuario" id="usuario-id" required maxlength="20" size="20" placeholder="Insira um nome">
+        </div>
+        <div>
+            <label for="senha-id">Senha: </label>
+            <input type="password" name="senha" id="senha-id" required minlength="8" size="10" placeholder="Insira sua senha" autocomplete="new-password">
+        </div>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+</body>
+</html>
