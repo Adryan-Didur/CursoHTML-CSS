@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="cadastro.js" method="get">
+        <fieldset>
+            <legend>Sexo</legend>
+            <!-- Todo input radio que for da mesma "classe" tem que, obrigatoriamente ter o mesmo nome. 
+                Exemplo:  -->
+            <input type="radio" name="sexo" id="masculino-id" checked> <label for="masculino-id">Masculino</label>
+            <input type="radio" name="sexo" id="feminino-id"> <label for="feminino-id">Feminino</label>
+        </fieldset>
+        <fieldset>
+            <legend>Esportes Favoritos</legend>
+            <input type="checkbox" name="futebol" id="futebol-id">
+            <label for="futebol-id">Futebol</label>
+            <input type="checkbox" name="basquete" id="basquete-id">
+            <label for="basquete-id">Basquete</label>
+            <input type="checkbox" name="golf" id="golf-id">
+            <label for="golf-id">Golf</label>
+
+        </fieldset>
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+
+    </form>
+</body>
+</html>
