@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+</head>
+<body>
+    <form action="cadastro.js" method="post">
+        <div>
+            <label for="anoid">Em que ano voce nasceu?</label>
+            <input type="number" name="ano" id="anoid" min="1900" max="2023" value="2024" oninput="idadeid.innerHTML = 2024 - Number(anoid.value)">
+        </div>
+        
+        <div>
+            <label for="idadeid">Sua idade: </label>
+            <output id="idadeid">1</output>
+        </div>
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </div>
+    </form>
+    m
+</body>
+</html>
