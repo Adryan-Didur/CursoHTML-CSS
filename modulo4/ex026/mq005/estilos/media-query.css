@@ -1,0 +1,16 @@
+@media screen and (min-width: 768px) {
+    span#burguer{
+        display: none;
+    }
+    menu#menu{
+        margin-top: 20px;
+        display: block;
+        text-align: left;
+    }
+    menu#menu > ul > li{
+        display: inline-block;
+    }
+    main{
+        width: 768px;
+    }
+}
